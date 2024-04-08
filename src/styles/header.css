@@ -1,0 +1,58 @@
+.header {
+  background-color: #edecec;
+  box-shadow: 0 4px 4px #626060;
+}
+
+.logo {
+  height: 6rem;
+  padding: 0.5rem;
+}
+
+@media screen and (min-width: 425px) {
+  .logo {
+    height: 8rem;
+  }
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: auto;
+}
+
+.nav__menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 3rem;
+}
+
+.nav__item {
+  list-style: none;
+  margin: 1rem 0;
+}
+
+.nav__link {
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2rem;
+  color: #b53636;
+}
+
+.nav__toggler div {
+  width: 2.5rem;
+  height: 0.2rem;
+  margin: 0.4rem;
+  background-color: #b53636;
+}
+
+.nav__toggler {
+  cursor: pointer;
+  display: block;
+}
+
+/* Nav Active class */
+.nav__active {
+  transform: translateX(0);
+}

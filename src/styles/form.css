@@ -1,0 +1,13 @@
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #b53636;
+}
+
+.contact input,
+textarea,
+button {
+  margin-bottom: 1rem;
+  color: #b53636;
+}

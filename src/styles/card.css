@@ -1,0 +1,17 @@
+.homeCard {
+  box-sizing: border-box;
+  background: #f5f5f5;
+  border: 2px solid #b53636;
+  max-width: 400px;
+}
+
+.recipeType {
+  font-family: "Rajdhani";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 61px;
+  align-items: center;
+  text-align: center;
+  color: #9b3e3e;
+}
