@@ -1,7 +1,7 @@
 .recipeContainer {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-around;
   flex-wrap: wrap;
   column-gap: 1rem;
   row-gap: 1rem;
