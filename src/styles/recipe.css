@@ -1,15 +1,24 @@
+.recipeContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  column-gap: 1rem;
+  row-gap: 1rem;
+}
+
 .recipeCard {
-  box-sizing: border-box;
   background: #f5f5f5;
   border: 2px solid #b53636;
   max-width: 400px;
+  padding: 1rem;
+  border-radius: 0.5rem;
 }
 
 .recipeName {
   font-style: normal;
   font-weight: bold;
   font-size: 2.5rem;
-  align-items: center;
   text-align: center;
   color: #9b3e3e;
 }
@@ -21,12 +30,8 @@
 }
 
 .recipeImage {
-  max-width: 100%;
-}
-
-.recipeContainer {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  flex-wrap: wrap;
+  width: 100%;
+  aspect-ratio: 4/3;
+  object-fit: cover;
+  border-radius: 0.5rem;
 }
