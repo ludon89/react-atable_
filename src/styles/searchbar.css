@@ -1,5 +1,7 @@
 .searchBar {
-  /* margin: 0 auto 0 auto; */
+  margin-bottom: 1rem;
+  color: #b53636;
+  font-size: 1.6rem;
 }
 
 .searchBarContainer {
