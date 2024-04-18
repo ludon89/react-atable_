@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 
 import "../styles/recipe.css";
 import "../styles/searchbar.css";
@@ -40,7 +40,7 @@ export function RecipeData() {
         </form>
       </div>
 
-      <div class="recipeContainer">
+      <div className="recipeContainer">
         {noResults()}
 
         {searchInput.length > 1
