@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/react-atable/static/css/main.ca0bff0c.css",
+    "main.js": "/react-atable/static/js/main.2f357eb2.js",
+    "static/js/787.12ce7c25.chunk.js": "/react-atable/static/js/787.12ce7c25.chunk.js",
+    "static/media/buffet.jpg": "/react-atable/static/media/buffet.e9424774e29f975c8c15.jpg",
+    "static/media/logo.jpg": "/react-atable/static/media/logo.de4267ceb1eb0fdc052e.jpg",
+    "index.html": "/react-atable/index.html",
+    "main.ca0bff0c.css.map": "/react-atable/static/css/main.ca0bff0c.css.map",
+    "main.2f357eb2.js.map": "/react-atable/static/js/main.2f357eb2.js.map",
+    "787.12ce7c25.chunk.js.map": "/react-atable/static/js/787.12ce7c25.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ca0bff0c.css",
+    "static/js/main.2f357eb2.js"
+  ]
+}
